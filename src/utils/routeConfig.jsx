@@ -4,6 +4,7 @@ import StarRatingContainer from "../assets/components/star-rating/StarRatingCont
 import Switch from "../assets/components/switch/SwitchContainer";
 import ThemeSwitch from "../assets/components/theme-switch/ThemeSwitch";
 import TimerContainer from "../assets/components/timer/TimerContainer";
+import TrafficLight from "../assets/components/traffic-lights/TrafficLight";
 
 export const routesConfig = [
   {
@@ -35,5 +36,10 @@ export const routesConfig = [
     path: "theme-switch",
     heading: "Build a Theme Swicther",
     element: <ThemeSwitch />,
+  },
+  {
+    path: "traffic-lights",
+    heading: "Build a traffic light system",
+    element: <TrafficLight />,
   },
 ];
