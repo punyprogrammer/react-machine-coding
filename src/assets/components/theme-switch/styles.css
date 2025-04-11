@@ -1,0 +1,31 @@
+#root{
+    all:unset;
+    margin: auto;
+    box-sizing: border-box;
+}
+body.dark{
+    color:white;
+    background-color: black;
+}
+button{
+    all:unset;
+    background-color: orange;
+    width: 90%;
+    cursor: pointer;
+    outline: none;
+    padding: 6px 6px;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+button:focus-visible{
+   outline: none;
+}
+.page-content .page-content-center button:focus-visible,button:focus{
+    outline: none;
+}
+
+body.light{
+    color: black;
+    background-color: white;;
+}
